@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.almeida.indexlogistics">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".InfoApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Fullscreen" />
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecuperacaoSenhaActivity"
+            android:label="Esqueci minha senha"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"/>
+        </activity>
+        <activity android:name=".PrincipalActivity"
+            android:parentActivityName=".LoginActivity"
+            android:label="Menu Cliente">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity android:name=".CadastroActivity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"/>
+        </activity>
+        <activity android:name=".PrincipalAdminActivity"
+            android:label="Administração"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"/>
+        </activity>
+        <activity android:name=".PrincipalEmpresaActivity"
+            android:label="Menu Empresa"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.almeida.indexlogistics.LoginActivity"
+                />
+        </activity>
+        <activity android:name=".EditarActivity"
+            android:label="Editar"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity"/>
+        </activity>
+        <activity android:name=".ResumoActivity"
+            android:label="Resumo"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity"/>
+        </activity>
+        <activity android:name=".CadastroEnderecoActivity"
+            android:label="Cadastrar novo endereço"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity"/>
+        </activity>
+        <activity android:name=".AprovarEntregaActivity"
+            android:label="Aprovar entrega"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity"/>
+        </activity>
+        <activity android:name=".CadastroPacoteActivity"
+            android:label="CadastroPacote"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity"/>
+        </activity>
+        <activity android:name=".EnderecosCadastradosActivity"
+            android:label="Endereços salvos"
+            android:parentActivityName=".CadastroEnderecoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CadastroEnderecoActivity"/>
+        </activity>
+        <activity android:name=".EnderecoDetalhadoActivity"
+            android:label="Detalhes"
+            android:parentActivityName=".EnderecosCadastradosActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnderecosCadastradosActivity"/>
+        </activity>
+        <activity android:name=".AprovarEntregaDetalhadoActivity"
+            android:label="Detalhes"
+            android:parentActivityName=".AprovarEntregaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AprovarEntregaActivity"/>
+        </activity>
+        <activity android:name=".CadastroEmpresaActivity"
+            android:label="Cadastrar empresa"
+            android:parentActivityName=".PrincipalAdminActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalAdminActivity"/>
+        </activity>
+        <activity android:name=".EmpresaEntregasActivity"
+            android:label="Entregas"
+            android:parentActivityName=".PrincipalEmpresaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalEmpresaActivity"/>
+        </activity>
+        <activity android:name=".SituacaoEntregasActivity"
+            android:label="Situação"
+            android:parentActivityName=".PrincipalEmpresaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalEmpresaActivity"/>
+        </activity>
+        <activity android:name=".EmpresaEntregaDetalhado"
+            android:label="Detalhes"
+            android:parentActivityName=".EmpresaEntregasActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EmpresaEntregasActivity"/>
+        </activity>
+        <activity android:name=".SituacaoEntregasDetalhado"
+            android:label="Detalhes"
+            android:parentActivityName=".SituacaoEntregasActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SituacaoEntregasActivity"/>
+        </activity>
+    </application>
+
+</manifest>
