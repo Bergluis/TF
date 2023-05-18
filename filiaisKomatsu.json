@@ -1,9 +1,45 @@
 [
   {
+    "key" : "TresLagoas",
+    "name" : "Tres Lagoas",
+    "latitude" : -20.804210306800716,
+    "longitude" : -51.72136673240417
+  },
+  {
+    "key" : "Ribas",
+    "name" : "Ribas do Rio Pardo",
+    "latitude" : -20.46602740992812,
+    "longitude" : -53.75983327474317
+  },
+  {
+    "key" : "DomEliseu",
+    "name" : "Dom Eliseu",
+    "latitude" : -4.195790594257432,
+    "longitude" : -47.54501537502737
+  },
+  {
+    "key" : "Curvelo",
+    "name" : "Curvelo",
+    "latitude" : -18.774017264257793,
+    "longitude" : -44.4354117306118
+  },
+  {
+    "key" : "Cacador",
+    "name" : "Cacador",
+    "latitude" : -26.77786372442611,
+    "longitude" : -51.01980400339529
+  },
+  {
+    "key" : "Bauru",
+    "name" : "Bauru",
+    "latitude" : -22.31243517113155,
+    "longitude" : -49.021342674693955
+  },
+  {
     "key" : "Alagoinhas",
     "name" : "Alagoinhas",
-    "latitude" : -12.1475668,
-    "longitude" : -38.4129002
+    "latitude" : -12.144897545428217,
+    "longitude" : -38.40880682094101
   },
   {
     "key" : "Paysandu",
@@ -14,8 +50,8 @@
   {
     "key" : "Butia",
     "name" : "Butia",
-    "latitude" : -30.1193,
-    "longitude" : -51.9627
+    "latitude" : -30.11647367654134,
+    "longitude" : -51.96156361045439
   },
   {
     "key" : "Acailandia",
