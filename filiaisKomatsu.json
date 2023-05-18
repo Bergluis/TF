@@ -1,5 +1,17 @@
 [
   {
+    "key" : "Alagoinhas",
+    "name" : "Alagoinhas",
+    "latitude" : -12.1475668,
+    "longitude" : -38.4129002
+  },
+  {
+    "key" : "Paysandu",
+    "name" : "Paysandu",
+    "latitude" : -32.315532,
+    "longitude" : -58.080329
+  },
+  {
     "key" : "Butia",
     "name" : "Butia",
     "latitude" : -30.1193,
