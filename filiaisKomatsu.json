@@ -1,5 +1,17 @@
 [
   {
+    "key" : "Fazenda",
+    "name" : "Fazenda Rio Grande",
+    "latitude" : -25.646621319954903,
+    "longitude" : -49.282208591778954
+  },
+  {
+    "key" : "Trevo",
+    "name" : "Trevo",
+    "latitude" : -17.884544313159154,
+    "longitude" : -39.8453849036416
+  },
+  {
     "key" : "TresLagoas",
     "name" : "Tres Lagoas",
     "latitude" : -20.804210306800716,
